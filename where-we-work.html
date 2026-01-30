@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEYD Kenya operates in 6 counties across North Eastern Kenya and Nairobi.">
+    <title>Where We Work - NEYD Kenya</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .county-card {
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .county-stats {
+            display: flex;
+            gap: 24px;
+            margin-top: 16px;
+        }
+
+        .county-stat {
+            text-align: center;
+        }
+
+        .county-stat .num {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .county-stat .label {
+            font-size: 0.85rem;
+            color: var(--light-text);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="scrolled">
+        <div class="container navbar">
+            <a href="index.html" class="logo">NEYD</a>
+            <nav class="nav-links" id="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="who-we-are.html">Who We Are</a>
+                <a href="programs.html">Programs</a>
+                <a href="university-chapter.html">Chapters</a>
+                <a href="partners.html">Partners</a>
+                <a href="where-we-work.html">Locations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn btn-primary">Join Us</a>
+            </nav>
+            <div class="menu-toggle" onclick="document.getElementById('nav-menu').classList.toggle('active')">&#9776;
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Where We Work</h1>
+            <p>Active across 6 counties in North Eastern Kenya and Nairobi.</p>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="section">
+        <div class="container">
+            <div class="map-placeholder">
+                Interactive Map Coming Soon
+            </div>
+        </div>
+    </section>
+
+    <!-- Counties -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Presence</h2>
+            </div>
+            <div class="grid grid-2" style="gap: 24px;">
+
+                <div class="card county-card">
+                    <h3>Nairobi</h3>
+                    <p>Our headquarters and main hub for university chapters and professional networking.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">5</div>
+                            <div class="label">Chapters</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">1,500+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">10</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card county-card">
+                    <h3>Garissa</h3>
+                    <p>The heart of our grassroots operations with active school mentorship programs.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">2</div>
+                            <div class="label">Chapters</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">1,200+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">8</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card county-card">
+                    <h3>Wajir</h3>
+                    <p>Expanding our reach to remote communities with mobile mentorship programs.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">1</div>
+                            <div class="label">Chapter</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">800+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">5</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card county-card">
+                    <h3>Mandera</h3>
+                    <p>Building bridges through education in Kenya's northernmost county.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">1</div>
+                            <div class="label">Chapter</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">600+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">4</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card county-card">
+                    <h3>Isiolo</h3>
+                    <p>Connecting pastoralist communities with educational opportunities.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">1</div>
+                            <div class="label">Chapter</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">500+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">3</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card county-card">
+                    <h3>Marsabit</h3>
+                    <p>Our newest operational area, bringing hope to emerging communities.</p>
+                    <div class="county-stats">
+                        <div class="county-stat">
+                            <div class="num">1</div>
+                            <div class="label">Chapter</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">400+</div>
+                            <div class="label">Youth</div>
+                        </div>
+                        <div class="county-stat">
+                            <div class="num">2</div>
+                            <div class="label">Schools</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Expand Our Reach</h2>
+            <p>Help us bring NEYD to more counties and communities.</p>
+            <a href="contact.html" class="btn btn-secondary">Support Our Work</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">NEYD</div>
+                    <p>Empowering youth through mentorship and leadership.</p>
+                    <div class="social-links">
+                        <a href="#">Fb</a>
+                        <a href="#">X</a>
+                        <a href="#">In</a>
+                        <a href="#">Ig</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="who-we-are.html">Who We Are</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="university-chapter.html">Chapters</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Involved</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Volunteer</a></li>
+                        <li><a href="partners.html">Partner</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li>Nairobi, Kenya</li>
+                        <li>info@neydkenya.org</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 NEYD Kenya. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
